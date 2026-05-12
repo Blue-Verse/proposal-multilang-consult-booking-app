@@ -75,16 +75,16 @@ job:
 | 순위 | 프로젝트 | 매칭 점수 | 근거 |
 |------|----------|----------|------|
 | 1 | **Connectin** | ★★★★★ | Flutter 크로스플랫폼 + 베트남어 등 다국어 + 3개월 풀 딜리버리 + 마이크로서비스 BE + RBAC |
-| 2 | **Calendar Share** | ★★★★★ | Flutter + 캘린더 기반 시간 관리 + 7종 알림 디스패처 + Firebase/Supabase BE |
+| 2 | **Harmony Link** | ★★★★★ | Flutter + NestJS + Next.js 어드민 풀스택, 다중 권한 + 멀티테넌트 + 알림 디스패처 (스택 일치도 최상) |
 | 3 | **Pilates App** | ★★★★☆ | React Native + 예약/캘린더 + 회원/강사/관리자 3단계 권한 + Android/iOS/Web 동시 출시 |
-| 4 | Harmony Link | ★★★★☆ | Flutter + NestJS + 멀티 플랫폼 + 보호자 커뮤니케이션 (보조 사례) |
+| 4 | Calendar Share | ★★★★☆ | Flutter + 캘린더 기반 시간 관리 + 7종 알림 디스패처 (보조 사례) |
 | 5 | Fortune App | ★★★☆☆ | Flutter + 다국어(한/영) + 3개월 빠른 딜리버리 (보조 사례) |
 
-추천 3개: Connectin · Calendar Share · Pilates App.
+추천 3개: Connectin · Harmony Link · Pilates App. (사용자 요청에 따라 Calendar Share → Harmony Link로 교체)
 
 ## 5. 최종 제안 요약
 
-- 지원 금액: **27,000,000원 (VAT 별도)** — 클라이언트 예상의 90% 적용
+- 지원 금액: **25,500,000원 (VAT 별도)** — 클라이언트 예상의 85% 적용 (사용자 조정)
 - 지원 기간: **90일** — 클라이언트 희망 기간 수용, 단계별 마일스톤 6회로 산출물 1순위 보호
 - 핵심 제안 포인트:
   1. 번역 API 3중 캐싱(정적 리소스 / 명시적 버튼 호출 / PG+Redis 영속) → 동일 원문 재호출 0건
@@ -104,10 +104,10 @@ https://proposal-router.claude-ai-b27.workers.dev/proposal-multilang-consult-boo
 ### 6-2. 지원 금액
 
 ```
-27,000,000원
+25,500,000원
 ```
 
-> 산정 근거: 클라이언트 예상 금액(30,000,000원)의 90% 적용. VAT 별도.
+> 산정 근거: 클라이언트 예상 금액(30,000,000원)의 85% 적용. VAT 별도.
 
 ### 6-3. 지원 기간
 
@@ -185,11 +185,11 @@ https://proposal-router.claude-ai-b27.workers.dev/proposal-multilang-consult-boo
 - 유사점: Flutter 단일 코드베이스로 iOS/Android 동시 출시, 다국어 적용, RBAC, 3개월 풀 딜리버리 — 본 공고와 동일한 출시 전략·일정
 - 기술 스택: Flutter, Dart, Next.js, Express, TypeScript, PostgreSQL, 마이크로서비스
 
-▶ Calendar Share — 소셜 캘린더 앱 (2025.01~, MVP)
-- 프로젝트 유형: B2C Flutter 앱 + 캘린더/소셜 융합
-- 핵심 기능: 캘린더 기반 일정 등록/공유, 7종 알림 디스패처, QR 디스커버리, Firebase + Supabase 듀얼 백엔드
-- 유사점: 캘린더 기반 시간 관리 UI + 타임존 처리 + 알림 디스패처 — 본 공고의 상담사 캘린더 예약·확정/취소/변경 알림 도메인 직결
-- 기술 스택: Flutter, Firebase, Supabase, Provider, FCM
+▶ Harmony Link — 시니어 주간보호 관리 플랫폼 (2025, 약 6개월)
+- 프로젝트 유형: B2B SaaS, Flutter 앱 + Next.js 어드민 + NestJS 풀스택, 멀티테넌트
+- 핵심 기능: 케어 로그/투약 관리, 보호자 커뮤니케이션, 다중 사용자 권한, 전자서명, 알림 디스패처, AWS CDK 인프라 자동화
+- 유사점: Flutter + NestJS 풀스택(본 공고 권장 스택 동일), 3단계 이상 권한 분리 + Next.js 관리자 웹, 알림 디스패처와 운영자 워크플로우 — 본 공고의 외국인/상담사/관리자 구조 및 예약 알림·신고 처리 도메인 직결
+- 기술 스택: Flutter, NestJS, Next.js, TypeScript, MySQL, AWS CDK, Docker
 
 ▶ Pilates App — 필라테스 프랜차이즈 관리 (2019.09~2019.12, 4개월)
 - 프로젝트 유형: B2B2C 예약·관리 앱 (Android/iOS/Web 동시 출시)
@@ -225,5 +225,5 @@ https://proposal-router.claude-ai-b27.workers.dev/proposal-multilang-consult-boo
 ### 6-6. 관련 포트폴리오 추천
 
 1. **Connectin** — Flutter 크로스플랫폼 + 다국어 + 마이크로서비스 BE, 3개월 풀 딜리버리 경험 (본 공고의 출시 전략·일정과 동일)
-2. **Calendar Share** — Flutter 캘린더 기반 시간 관리 + 타임존 처리 + 7종 알림 디스패처 (예약/알림 도메인 직결)
+2. **Harmony Link** — Flutter + NestJS + Next.js 어드민 풀스택, 다중 권한 + 알림 디스패처 + 운영자 워크플로우 (본 공고 스택·구조 일치도 최상)
 3. **Pilates App** — 예약 시스템 + 강사 캘린더 + 회원·강사·관리자 3단계 권한 + 3 플랫폼 동시 출시 (도메인 구조 동일)
